@@ -89,7 +89,7 @@ namespace AES
             byte[] inputByteArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 11, 112, 13, 12, 15, 14 };
             Console.WriteLine("Write key for encryption: ");
             var _key = string.Empty;
-            hideKey(_key);
+            HideKey(_key);
             byte[] _keyB = Encoding.ASCII.GetBytes(_key);
             Aes a = new Aes(keysize, _keyB);
             byte[] outputByteArray = new byte[16];
@@ -105,7 +105,7 @@ namespace AES
             pause();
         }
 
-        public static void hideKey(String privateKey)
+        public static void HideKey(String privateKey)
         {
             ConsoleKey key;
             do
