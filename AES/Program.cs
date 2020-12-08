@@ -76,20 +76,13 @@ namespace AES
         }
         static void Main(string[] args)
         {
-            /*
-            byte[] inputByteArray = { 0xAA, 0x55, 0xBB, 0x66, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
-            byte[] outputByteArray = AESEncryption.AESEncrypt(inputByteArray);
-            byte[] outputByteArray1 = AESEncryption.AESDecrypt(outputByteArray);
-            */
-
-            //*
             Aes.KeySize keysize;
             keysize = Aes.KeySize.Bits128;
-            //byte[] inputByteArray = { 0xAA, 0x55, 0xBB, 0x66, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
             byte[] inputByteArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 11, 112, 13, 12, 15, 14 };
             Console.WriteLine("Write key for encryption: ");
             var _key = string.Empty;
             HideKey(_key);
+
             byte[] _keyB = Encoding.ASCII.GetBytes(_key);
             Aes a = new Aes(keysize, _keyB);
             byte[] outputByteArray = new byte[16];
