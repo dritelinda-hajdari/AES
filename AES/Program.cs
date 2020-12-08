@@ -88,7 +88,8 @@ namespace AES
             //byte[] inputByteArray = { 0xAA, 0x55, 0xBB, 0x66, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
             byte[] inputByteArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 11, 112, 13, 12, 15, 14 };
             Console.WriteLine("Write key for encryption: ");
-            String _key = Console.ReadLine();
+            var _key = string.Empty;
+            hideKey(_key);
             byte[] _keyB = Encoding.ASCII.GetBytes(_key);
             Aes a = new Aes(keysize, _keyB);
             byte[] outputByteArray = new byte[16];
@@ -102,6 +103,27 @@ namespace AES
             Console.WriteLine("Output - " + hex2);
             a.Dump();
             pause();
+        }
+
+        public static void hideKey(String privateKey)
+        {
+            ConsoleKey key;
+            do
+            {
+                var keyInfo = Console.ReadKey(intercept: true);
+                key = keyInfo.Key;
+
+                if (key == ConsoleKey.Backspace && privateKey.Length > 0)
+                {
+                    Console.Write("\b \b");
+                    privateKey = privateKey[0..^1];
+                }
+                else if (!char.IsControl(keyInfo.KeyChar))
+                {
+                    Console.Write("*");
+                    privateKey += keyInfo.KeyChar;
+                }
+            } while (key != ConsoleKey.Enter);
         }
     }
 }
