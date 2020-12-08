@@ -1,0 +1,13 @@
+C:\Users\DritelindaH\source\repos\AES\AES\bin\Debug\netcoreapp3.1\AES.exe
+C:\Users\DritelindaH\source\repos\AES\AES\bin\Debug\netcoreapp3.1\AES.deps.json
+C:\Users\DritelindaH\source\repos\AES\AES\bin\Debug\netcoreapp3.1\AES.runtimeconfig.json
+C:\Users\DritelindaH\source\repos\AES\AES\bin\Debug\netcoreapp3.1\AES.runtimeconfig.dev.json
+C:\Users\DritelindaH\source\repos\AES\AES\bin\Debug\netcoreapp3.1\AES.dll
+C:\Users\DritelindaH\source\repos\AES\AES\bin\Debug\netcoreapp3.1\AES.pdb
+C:\Users\DritelindaH\source\repos\AES\AES\obj\Debug\netcoreapp3.1\AES.csprojAssemblyReference.cache
+C:\Users\DritelindaH\source\repos\AES\AES\obj\Debug\netcoreapp3.1\AES.AssemblyInfoInputs.cache
+C:\Users\DritelindaH\source\repos\AES\AES\obj\Debug\netcoreapp3.1\AES.AssemblyInfo.cs
+C:\Users\DritelindaH\source\repos\AES\AES\obj\Debug\netcoreapp3.1\AES.csproj.CoreCompileInputs.cache
+C:\Users\DritelindaH\source\repos\AES\AES\obj\Debug\netcoreapp3.1\AES.dll
+C:\Users\DritelindaH\source\repos\AES\AES\obj\Debug\netcoreapp3.1\AES.pdb
+C:\Users\DritelindaH\source\repos\AES\AES\obj\Debug\netcoreapp3.1\AES.genruntimeconfig.cache
