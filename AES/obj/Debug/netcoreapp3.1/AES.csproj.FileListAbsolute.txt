@@ -11,3 +11,16 @@ C:\Users\DritelindaH\source\repos\AES\AES\obj\Debug\netcoreapp3.1\AES.csproj.Cor
 C:\Users\DritelindaH\source\repos\AES\AES\obj\Debug\netcoreapp3.1\AES.dll
 C:\Users\DritelindaH\source\repos\AES\AES\obj\Debug\netcoreapp3.1\AES.pdb
 C:\Users\DritelindaH\source\repos\AES\AES\obj\Debug\netcoreapp3.1\AES.genruntimeconfig.cache
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\bin\Debug\netcoreapp3.1\AES.exe
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\bin\Debug\netcoreapp3.1\AES.deps.json
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\bin\Debug\netcoreapp3.1\AES.runtimeconfig.json
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\bin\Debug\netcoreapp3.1\AES.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\bin\Debug\netcoreapp3.1\AES.dll
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\bin\Debug\netcoreapp3.1\AES.pdb
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\obj\Debug\netcoreapp3.1\AES.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\obj\Debug\netcoreapp3.1\AES.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\obj\Debug\netcoreapp3.1\AES.AssemblyInfo.cs
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\obj\Debug\netcoreapp3.1\AES.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\obj\Debug\netcoreapp3.1\AES.dll
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\obj\Debug\netcoreapp3.1\AES.pdb
+C:\Users\Dell\source\repos\dritelinda-hajdari\AES\AES\obj\Debug\netcoreapp3.1\AES.genruntimeconfig.cache

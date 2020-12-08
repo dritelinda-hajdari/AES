@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DritelindaH\\source\\repos\\AES\\AES\\AES.csproj": {}
+    "C:\\Users\\Dell\\source\\repos\\dritelinda-hajdari\\AES\\AES\\AES.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DritelindaH\\source\\repos\\AES\\AES\\AES.csproj": {
+    "C:\\Users\\Dell\\source\\repos\\dritelinda-hajdari\\AES\\AES\\AES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DritelindaH\\source\\repos\\AES\\AES\\AES.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\dritelinda-hajdari\\AES\\AES\\AES.csproj",
         "projectName": "AES",
-        "projectPath": "C:\\Users\\DritelindaH\\source\\repos\\AES\\AES\\AES.csproj",
-        "packagesPath": "C:\\Users\\DritelindaH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DritelindaH\\source\\repos\\AES\\AES\\obj\\",
+        "projectPath": "C:\\Users\\Dell\\source\\repos\\dritelinda-hajdari\\AES\\AES\\AES.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\source\\repos\\dritelinda-hajdari\\AES\\AES\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DritelindaH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

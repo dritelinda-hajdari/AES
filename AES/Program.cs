@@ -87,8 +87,10 @@ namespace AES
             keysize = Aes.KeySize.Bits128;
             //byte[] inputByteArray = { 0xAA, 0x55, 0xBB, 0x66, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
             byte[] inputByteArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 11, 112, 13, 12, 15, 14 };
-            byte[] _key1 = { 0x36, 0x64, 0x9A, 0xF2, 0x6D, 0xDE, 0x0C, 0x3A, 0x0F, 0x1E, 0x2D, 0x3C, 0x4B, 0x5A, 0x69, 0x78 };
-            Aes a = new Aes(keysize, _key1);
+            Console.WriteLine("Write key for encryption: ");
+            String _key = Console.ReadLine();
+            byte[] _keyB = Encoding.ASCII.GetBytes(_key);
+            Aes a = new Aes(keysize, _keyB);
             byte[] outputByteArray = new byte[16];
             a.Cipher(inputByteArray, outputByteArray);
             byte[] outputByteArray1 = new byte[16];
