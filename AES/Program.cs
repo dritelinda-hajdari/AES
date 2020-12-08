@@ -99,7 +99,7 @@ namespace AES
 
             string hex2 = ToHexString(outputByteArray);
             string hex1 = ToHexString(outputByteArray1);
-            Console.WriteLine("Input - " + hex1);
+            Console.WriteLine("\nInput - " + hex1);
             Console.WriteLine("Output - " + hex2);
             a.Dump();
             pause();
